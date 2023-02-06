@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #20262E;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form_structure {
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: #8d99ae;
+}
+.input_space {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    margin: auto;
+}
+
+#id, #password {
+    padding: 20px 15px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#checkbox {
+    margin-bottom: 20px;
+}
+
+.get_login {
+    padding: 15px 20px 10px 15px;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 0.7em;
+}
+
+.get_login:active {
+ background-color: #e5e5e5;
+}
+
+.fa-user, .fa-lock {
+    font-size: 20px;
+    position: absolute;
+    width: 30px;
+    border-right: 1px solid #1b263b;
+}
+
+.title {
+    position: relative;
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-top: 7em;
+}
+
+.icon {
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+i {
+    color: black;
+    margin: 20px;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+.fa-facebook {
+    color: #1778F2;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-square-instagram {
+    background: linear-gradient(to right, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-google {
+    background: linear-gradient(to right, #4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon:hover {
+    transform: translateY(-0.3em);
+}
